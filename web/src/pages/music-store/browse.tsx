@@ -7,7 +7,7 @@ interface BrowseProps {
     albums: Album[];
 }
 
-export default function Browse({ albums }: BrowseProps) {
+export default function BrowsePage({ albums }: BrowseProps) {
     const sortedAlbums = [...albums].sort((a, b) => a.title.localeCompare(b.title));
 
     return (

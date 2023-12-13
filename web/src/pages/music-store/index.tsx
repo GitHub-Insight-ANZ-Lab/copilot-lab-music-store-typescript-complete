@@ -6,7 +6,7 @@ interface MusicStoreProps {
     genres: Genre[];
 }
 
-export default function MusicStore({ genres }: MusicStoreProps) {
+export default function MusicStorePage({ genres }: MusicStoreProps) {
     return (
         <div className="flex items-center justify-center min-h-screen p-6">
             <div className="max-w-4xl mx-auto text-center">

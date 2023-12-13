@@ -8,7 +8,7 @@ interface AlbumPageProps {
     album: Album;
 }
 
-export default function Album({ album }: AlbumPageProps) {
+export default function AlbumPage({ album }: AlbumPageProps) {
     const formattedPrice = album.price.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
 
     return (
