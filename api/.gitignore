@@ -18,5 +18,3 @@ dist/
 *.sublime-project
 *.sublime-workspace
 
-# Ignore npm lock file
-package-lock.json
