@@ -1,4 +1,4 @@
-# copilot-lab-music-store-typescript-complete
+# Copilot Music Store Lab - Complete Example
 
 ## Overview
 
